@@ -1,0 +1,102 @@
+PRIVACY POLICY — BIDA REELS
+Formerly BidaMax
+Draft revision date: October 1, 2026
+
+DRAFT FOR REVIEW: Before publication, confirm the retention and deletion details
+marked below and make sure the described request process is operational.
+
+1. ABOUT THIS POLICY
+Bida Reels provides short-drama and reels viewing features. This policy explains
+how account information, app activity, device information, and other data are
+handled when you use the app. It also describes services used for sign-in,
+advertising and content delivery, and notes the planned VIP purchase feature.
+
+2. ACCOUNT INFORMATION
+When you sign in with Google, the app uses Google Sign-In and Firebase
+Authentication. The app stores your Firebase user ID, Google display name,
+email address, profile-photo URL, and account/login timestamps in Firebase
+Realtime Database. This information supports account access and administration.
+The app does not receive or store your Google account password.
+Account records may also include blocked status, VIP status, and VIP or
+ad-free entitlement expiration dates.
+
+3. DEVICE AND SESSION INFORMATION
+For active VIP-session management, the app stores a session identifier,
+a device identifier, device name, and session timestamp. The current app
+constructs its device identifier from a hash of the app package and Android ID,
+or uses a generated identifier when Android ID is unavailable. This information
+is used to recognize an active device/session and manage VIP access.
+
+4. APP ACTIVITY AND LOCAL STORAGE
+The app stores settings such as selected provider, search history, favorites,
+viewing progress, and cached content/images on the device. Nickname changes
+and profile images selected through the app's profile editor are stored locally;
+they are separate from the Google profile information stored for your account.
+Search terms and content requests may be sent to the selected content provider
+or hosting service to retrieve results and deliver videos or images.
+For signed-in users, episode-unlock records are also stored in Firebase.
+These records contain a drama/series identifier, unlocked episode limit,
+update timestamp, and access-expiration timestamp.
+Expiration of episode access does not itself mean deletion of the server record.
+
+5. ADVERTISING
+Bida Reels uses Google AdMob / Google Mobile Ads SDK for rewarded and
+interstitial advertising. Ad requests can begin during app startup/Splash,
+including while the login screen is visible, when ads are enabled.
+The SDK handles data such as IP address, device/account identifiers,
+ad interactions, and diagnostic information for advertising, analytics,
+and fraud prevention. An IP address may be used to estimate general location.
+Advertising identifiers and ad handling may vary with device settings,
+SDK configuration, and applicable consent choices.
+Rewarded ads can be used to unlock episodes. Ad-free/VIP access changes
+ad-display behavior but does not remove account management.
+Google privacy policy: https://policies.google.com/privacy
+AdMob disclosure: https://developers.google.com/admob/android/privacy/play-data-disclosure
+
+6. VIP IN-APP PURCHASES — PLANNED
+We plan to introduce VIP in-app purchases in an upcoming update. This purchase
+feature is not currently available in the app. Before it becomes available,
+we will update this policy to explain the billing service used, information
+handled for purchase verification and VIP access, and related retention and
+deletion practices. Existing VIP entitlements may still be managed through
+account administration; they are separate from the planned purchase feature.
+
+7. SERVICE PROVIDERS AND SHARING
+Google/Firebase supports authentication, account storage, and advertising.
+Content APIs, image/video hosts, and external websites receive
+the network requests needed to deliver their services, which can include
+
+IP address and requested resources. Opening an update link transfers you
+to an external browser or app store.
+Authorized administrators may access account records to provide support,
+manage VIP entitlements, enforce access restrictions, and process requests.
+We do not sell or rent your personal information. Information may be handled
+by service providers to operate the app or disclosed where legally required.
+
+8. SECURITY
+The app uses HTTPS for Firebase and ad services. We use reasonable security measures appropriate to the services
+we operate. No storage or transmission method can guarantee complete security.
+
+9. RETENTION — CONFIRM BEFORE PUBLICATION
+[CONFIRM: State how long account/profile records, VIP/device-session records,
+and episode-unlock records are retained. Specify the
+actual deletion schedule and any records retained for a defined legitimate
+reason, together with the applicable retention period. Do not treat the
+2-hour unlock-access period as a server-data deletion period.]
+Local data is stored on your device. You can clear app storage or uninstall
+the app to remove local app data; this does not itself delete Firebase records
+or an account. Data retained by independent services is subject to their policies.
+
+10. ACCOUNT AND DATA DELETION
+You may request deletion by emailing danielkhortigo@gmail.com with the subject
+“Bida Reels Account Deletion Request” and the email address used for your account.
+Do not include your password, one-time codes, or payment credentials.
+We may verify ownership before processing an account-related request.
+[CONFIRM: State the actual processing period, account and database records
+that will be deleted, and any records retained with the reason and duration.
+Verify that Firebase Authentication, users, episode_unlocks, and VIP/session
+records are covered as applicable.]
+Deleting an app account is separate from deleting a Google account.
+Signing out or uninstalling the app is not an account-deletion request.
+The existing external account-deletion page must use the same current contact
+and confirmed process as this policy.
